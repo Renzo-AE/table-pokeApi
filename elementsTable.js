@@ -81,7 +81,6 @@ export const paintDataInTable = (pokemon, i) => {
       })
     } else if (index == 4) {
       option.innerHTML = `<img src=${pokemon.sprites.other["official-artwork"].front_default} alt=${pokemon.name} width="60">
-                          <img src=${pokemon.sprites.other.home.front_default} alt=${pokemon.name} width="60">
       `
     } else if (index == 5) {
       const btn = option.querySelector("button")

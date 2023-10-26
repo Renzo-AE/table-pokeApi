@@ -7,7 +7,7 @@ let pokemons = null;
 /* Pagination setup */
 const pagination = {
   pageSize: 10,
-  currentPage: 80,
+  currentPage: 1,
   totalPages: 100,
 }
 
